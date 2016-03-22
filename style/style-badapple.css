@@ -1,0 +1,143 @@
+@charset "UTF-8";
+div#nav-cont {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font: 12px/22px "宋体", Arial, Helvetica, sans-serif; }
+
+div#nav a {
+  /*链接格式*/
+  color: #000077;
+  text-decoration: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+div#nav {
+  width: 100%;
+  height: 60px;
+  background: #000;
+  margin: 0 auto; }
+
+div#nav div {
+  display: inline;
+  height: 60px; }
+
+div#nav div a {
+  display: inline-block;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  /*字体颜色*/
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  font-size: 16px; }
+  
+div#nav div span {
+  display: block;
+  background: #000;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  visibility: hidden;} 
+
+div#nav div span:hover {
+  /*鼠标移上*/
+  box-shadow: 2px 2px 5px #000;
+  background: #fff;
+  color: #000; }
+
+div#nav div a:hover {
+  /*鼠标移上*/
+  background: #fff;
+  color: #000; }
+
+/*Style*/
+table {
+  width: 100%;
+  margin: auto; }
+
+table a {
+  color: #fff;
+  /*链接颜色*/ }
+
+table.altrowstable {
+  font-family: verdana,arial,sans-serif;
+  font-size: 11px;
+  color: #fff;
+  /*字体颜色*/
+  border-width: 1px;
+  border-color: #fff;
+  border-collapse: collapse; }
+
+table.altrowstable th {
+  /*表头*/
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #000;
+  background-color: #000; }
+
+table.altrowstable td {
+  /*表格*/
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #fff; }
+
+/*奇偶行颜色*/
+.oddrowcolor {
+  background-color: #616161; }
+
+.evenrowcolor {
+  background-color: #a3a3a3; }
+
+body {
+  margin: 0px;
+  background-color: #fff;
+  /*主界面背景:灰色*/ }
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body h1 {
+  font-size: 30pt;
+  /*标题1大小*/ }
+
+body h2 {
+  font-size: 20pt;
+  /*标题2大小*/ }
+
+div.problem-info {
+  /*试题信息*/
+  font-size: 10pt;
+  padding: auto;
+  margin: auto; }
+
+.linker {
+  /*链接字体:斜体*/
+  font-style: italic;
+  color: #000077; }
+
+.content {
+  /*文本框*/
+  background-color: #fff;
+  padding: 10px;
+  border-color: #fff;
+  border-style: solid;
+  width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px #000;
+  /*阴影*/ }
+
+.rating-graph {
+  /*rating绘图*/
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 910px;
+  height: 300px; }

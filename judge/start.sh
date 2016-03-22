@@ -1,0 +1,1 @@
+su judger -c "./update"

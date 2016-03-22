@@ -1,0 +1,44 @@
+body{
+		margin:0px;
+}
+.container{
+		width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		word-break:break-all;
+		word-wrap:break-word;
+}
+.ccontainer{
+		text-align:center;
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+}
+div#menu-container{
+		width:60%;
+		float:right;
+		padding-top:2em;
+}
+div#menu a{
+		text-decoration:none;
+		color:#8e308f;
+		font-family:"SimHei";
+		font-size:20pt;
+}
+.content{
+		font-size:12pt;
+		padding:5pt;
+		border-color:#a0cffd;
+		border-style:solid;
+		border-radius:5px;
+		width:100%;
+		left-margin:0;
+		box-shadow: 2px 2px 5px #e4fdbf;
+		}
+.vcontent{
+		padding:5pt;
+		margin:auto;
+		width:95%;
+}
+.problemset{
+}

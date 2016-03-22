@@ -1,0 +1,48 @@
+:root{
+		--color-of-background:#fff;
+		--color-of-content-background:#fff;
+		--color-of-content-border:#a0cffd;
+		--style-of-content-shadow:2px 2px 5px #e4fdbf;
+		--color-of-linker:#000077;
+}
+body{
+	margin:0px;
+	background-color:var(--color-of-background);/*主界面背景:灰色*/
+}
+.container{
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+}
+body h1{
+	font-size:30pt;/*标题1大小*/
+}
+body h2{
+	font-size:20pt;/*标题2大小*/
+}
+div.problem-info{/*试题信息*/
+		font-size:10pt;
+		padding:auto;
+		margin:auto;
+}
+.linker{/*链接字体:斜体*/
+		font-style:italic;
+		color:var(--color-of-linker);
+}
+.content{/*文本框*/
+		background-color:var(--color-of-content-background);
+		padding:10px;
+		border-color:var(--color-of-content-border);
+		border-style:solid;
+		width:910px;
+		margin-left:auto;
+		margin-right:auto;
+		box-shadow: var(--style-of-content-shadow);/*阴影*/
+}
+.rating-graph{/*rating绘图*/
+		padding:10px;
+		margin-left:auto;
+		margin-right:auto;
+		width:910px;
+		height:300px;
+}
